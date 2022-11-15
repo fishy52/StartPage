@@ -1,0 +1,25 @@
+@font-face {
+    font-family: main;
+    src: url(brandon-grotesque-black-58a8a3e824392.otf);
+}
+
+html {
+    color-scheme: dark;
+    font-family: main;
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 6%, rgba(0, 86, 103, 1) 100%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+}
+
+.projectButton {
+    color: red;
+    position: relative;
+}
+.projectButton:hover {
+    cursor: pointer;
+}
